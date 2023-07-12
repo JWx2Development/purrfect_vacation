@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
   $email = $_POST['email'];
   $subject = $_POST['subject'];
 
-  $to = "purrfectvacationhook@gmail.com";
+  $to = "none@gmail.com";
 
   $emailSubject = "New Website Enquiry";
 
@@ -41,4 +41,4 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
   <img class="thankYouLogo" src="/images/purrfectLogo.png" alt="" style="height: auto; width: 50%; margin-left: 25%; margin-right: 25%">
   <h1 style="text-align: center">Thank you for getting in contact, I will be in touch asap.</h1>
-  <p style="text-align: center">Return to the <a href="http://purrfect-vacation.co.uk/">hompage</p>
+  <p style="text-align: center">Return to the <a href="deafault.html/">hompage</p>
